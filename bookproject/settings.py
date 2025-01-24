@@ -80,7 +80,7 @@ WSGI_APPLICATION = 'bookproject.wsgi.application'
 
 # For Render add 1 line
 import dj_database_url
-allowed hosts = ['*']
+ALLOWED_HOSTS = ['*']
 # allowed_hosts ?
 # allowed_hosts = ['*']
 
